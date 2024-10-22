@@ -1,1 +1,143 @@
-/* Add your css here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #312c1f;
+}
+
+
+.header-img {
+    background-image: url('china-7504392_1280.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-img h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+nav {
+    background-color: rgb(121, 15, 121);
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 100px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.placeholder-img {
+    width: 100%;
+    height: 200px;
+    background-color: #faf3e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    font-size: 1.5rem;
+}
+
+
+main {
+    background-color: #faf3e0;
+    padding: 40px;
+    text-align: center;
+}
+
+.featured p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+
+.attractions-list {
+    padding: 40px;
+}
+
+.attraction-item {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.attraction-info {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.attraction-info h2 {
+    margin: 0 0 10px;
+}
+
+.attraction-info p {
+    margin: 0;
+}
+
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    background-color: #faf3e0;
+}
+
+.restaurant-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.restaurant-card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.restaurant-card h2 {
+    color: black;
+    margin: 10px 0;
+}
+
+.restaurant-card p {
+    color: #555;
+    margin: 5px 0;
+}
+
+
+footer {
+    background-color: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
